@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compute Loan Payment</title>
+</head>
+<body>
+<h2>Compute Loan Payment</h2>
+<form method="post" action="loan">
+    <table>
+        <tr>
+            <td><label>Loan Amount: </label></td>
+            <td><input type="text" name="loanAmount" required></td>
+        </tr>
+        <tr>
+            <td><label>Annual Interest Rate: </label></td>
+            <td><input type="text" name="interestRate" required></td>
+        </tr>
+        <tr>
+            <td><label>Number of Years: </label></td>
+            <td><input type="text" name="years" required></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Compute Loan Payment">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
